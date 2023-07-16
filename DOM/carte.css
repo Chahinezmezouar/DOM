@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #cart-items {
+    margin-top: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    flex-grow: 1;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
+  .delete {
+    background-color: red;
+    color: white;
+  }
+  
+  .like {
+    background-color: lightgray;
+  }
+  
+  .liked {
+    background-color: pink;
+  }
+  
+  #total-price {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
